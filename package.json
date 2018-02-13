@@ -1,0 +1,16 @@
+{
+  "name": "td1",
+  "version": "1.0.0",
+  "description": "TD 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Test\"",
+    "pretest": "npm run qualityCheck && echo \"Pretest\"",
+    "posttest": "echo \"Postest\"",
+    "qualityCheck": "echo \"Quality Check\"",
+    "prequalityCheck": "echo \"Pre Quality Check\"",
+    "postqualityCheck": "echo \"Post Quality Check\""
+  },
+  "author": "",
+  "license": "ISC"
+}
